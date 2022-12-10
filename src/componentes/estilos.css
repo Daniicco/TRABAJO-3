@@ -1,0 +1,188 @@
+body
+{
+    background-color:#f5f3f3 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:rgb(0, 0, 0);
+    
+}
+
+
+#logo
+{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+
+}
+
+/* Encabezado*/
+
+header
+{
+    background-color:rgba(205, 99, 110, 0.83);
+}
+
+header h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#titulo header
+{
+    width: 1080px;
+    margin: auto;
+}
+
+#titulo
+{
+    display:inline-block
+}
+
+#logo
+{
+    display:inline-block;
+    width: 80px;
+    width: 80px;
+}
+
+div h2{
+    display:block;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(213, 24, 24), 0 0 5px rgb(91, 91, 93);
+    margin-top: 30px;
+
+}
+
+
+/*menu de navegacion*/
+nav{
+    display: inline-block;
+    width: 740px;
+    margin-left: 150px;
+    text-align: right;
+}
+
+nav ul li
+{
+    display:inline-block;
+    margin-right: 15px;
+    list-style-type:none;
+}
+
+nav a:hover 
+{
+    color: crimson;
+    border-bottom: 3px, crimson;
+    
+}
+nav a
+{
+    color:black;
+}
+
+/*Galeria de imagenes*/
+
+
+div .galeria
+{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(120, 30, 30), 0 6px 20px 0 rgba(0, 0,0, 0.19);
+    float: left;
+    width: 350xp;
+}
+
+div .galeria img
+{
+   
+    width: 300px;
+    height: 200px;
+
+}
+
+div.galeria:hover
+{
+    border: 1px solid rgb(145, 20, 20);
+    transform: rotate(-3ged);
+
+}
+
+div.pie
+{
+    
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(11, 1, 1);
+    padding: 10px;
+
+}
+
+/* Buscador*/
+
+.buscar
+{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background: rgb(39, 39, 39);
+    padding: 10xp;
+    height: 80px;
+    border-radius: 48px;
+}
+
+.busca_texto 
+{
+    border: none;
+    background: none;
+    outline:none ;
+    color:rgb(241, 237, 237);
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition: .3s;
+   
+}
+
+.busca_texto::placeholder{
+    color: rgb(239, 216, 216);
+}
+
+.form_registro
+{
+    width: 400px;
+    background: #6c0404;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibir';
+    color: white;
+    box-shadow:  7px 13px  37px #000;
+}
+.controles
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solido #000000;
+    font-family: 'calibir';
+    font-size: 18px;
+    color: white;
+}
+
+.form_registro .boton
+{
+    width: 100%;
+    background: #1e1d1d ;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16xp 0;
+    font-size: 16px;
+}
